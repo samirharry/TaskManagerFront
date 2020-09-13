@@ -1,0 +1,17 @@
+.block{
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10%;
+    text-align: center;
+}
+
+.isCompleted{
+    background-color: #A1FFA5;
+    color: #FFFFFF;
+}
+
+.isPending{
+    background-color: #F58282;
+    color: #FFFFFF;
+}
+

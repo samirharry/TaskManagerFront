@@ -1,0 +1,30 @@
+
+.gridContainer{
+    display: grid;
+    grid-template-areas: 
+    'header header header'
+    'tasks graph graph';
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.tasksContainer{
+    padding: 15px;
+    grid-area: tasks;
+}
+.tasksContainer > * {
+    margin: 15px;
+}
+
+.tasksContainer
+
+
+
+    
+.titleContainer{
+    grid-area: header;
+}
+    
+.graphContainer{
+    grid-area: graph;
+}
