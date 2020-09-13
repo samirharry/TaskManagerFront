@@ -1,0 +1,22 @@
+.info{
+    display: grid;
+    grid-template-areas:
+    'register stats edit'
+    'content content content';
+}
+
+.register{
+    grid-area: register;
+}
+
+.stats{
+    grid-area: stats;
+}
+
+.edit{
+    grid-area: edit;
+}
+
+.content{
+    grid-area: content;
+}

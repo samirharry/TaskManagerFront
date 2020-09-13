@@ -15,11 +15,13 @@ export async function getStaticProps() {
     props: {
       tasks: [
         {
+          id: "1",
           name: "Tarea 1",
           status: "1",
           statusDes: "pending",
         },
         {
+          id: "2",
           name: "Tarea 2",
           status: "2",
           statusDes: "success",

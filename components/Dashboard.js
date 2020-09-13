@@ -1,6 +1,5 @@
 import Block from './Block'
 import Title from './Title'
-import Link from 'next/link'
 import styles from './Dashboard.module.css'
 
 

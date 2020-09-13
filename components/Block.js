@@ -6,7 +6,7 @@ function Block({task}){
     classes.push(task.isCompleted?styles.isCompleted:"");
     classes.push(task.isPending?styles.isPending:"");
     return (
-        <Link href = '/tasks/[task]' as={`/tasks/${task._id}`} >
+        <Link href = '/tasks/[id]' as={`/tasks/${task.id}`} >
         <div className={`${classes.join(" ")}`} >
             {task.name}
         </div>

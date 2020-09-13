@@ -1,0 +1,19 @@
+
+.task{
+    display: grid;
+    grid-template-areas:
+    'title title title title'
+    'menu info info info';
+}
+
+.titleContainer{
+    grid-area: title;
+}
+
+.infoContainer{
+    grid-area: info;
+}
+
+.menuContainer{
+    grid-area: menu;
+}
