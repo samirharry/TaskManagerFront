@@ -1,0 +1,12 @@
+.ViewOption{
+    cursor: pointer;
+    border: solid green 3px;
+    background: red;
+    text-align: center;
+}
+.ViewOption:hover{
+    border: solid green 3px;
+    background: none;
+    text-align: center;
+    color:red;
+}

@@ -1,9 +1,10 @@
+import styles from './ViewOption.module.css'
 
-function ViewOption({name}){
+function ViewOption({title}){
 
     return(
-        <div>
-            {}
+        <div className={styles.ViewOption}>
+            {title}
         </div>
     )
 }
