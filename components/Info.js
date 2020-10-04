@@ -1,6 +1,7 @@
 import {useState} from 'react'
 import styles from './Info.module.css'
 import ViewOption from './ViewOption';
+import Register from './Register';
 
 
 function Info(props){
@@ -39,7 +40,7 @@ function Info(props){
             <ViewOption title={"Editar"} />
             </div>
             <div className={styles.content}>
-                {register && <div>registrosss</div>}
+                {register && <Register />}
                 {stats && <div>Estadisticas</div>}
                 {edit && <div>Ediciones</div>}
                 

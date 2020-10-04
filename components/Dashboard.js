@@ -11,7 +11,7 @@ export default function Dashboard({tasks, dataGraph}) {
       <Title  title={"Manejador de Objetivos"}/>
       </div>
       <div className={styles.tasksContainer}>
-      { tasks.map( task =>   <Block task={task}/>  )}
+      { tasks.map( task =>   <Block key ={task.id} task={task}/>  )}
       </div>
       <div className={styles.graphContainer}>
         <div> Graficos gaaa</div>
